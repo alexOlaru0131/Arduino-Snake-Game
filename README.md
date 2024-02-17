@@ -1,4 +1,4 @@
-Hello! In this project I made the Snake Game using 4 buttons, an I2C OLED Display and a Arduino Uno Rev3 Board. I will attach the electric scheme that I used.
+Hello! In this project I made the Snake Game using 4 buttons, an SSD1306 0.96 inch I2C OLED Display and a Arduino Uno Rev3 Board. I will attach the electric scheme that I used.
 
 The program uses the same rules as the Snake Game on Nokia. To control the snake you need to press the buttons which direction (function) you can set by adjusting the code or by rearranging the wires.
 
