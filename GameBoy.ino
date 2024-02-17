@@ -44,9 +44,6 @@ void setup() {
   pinMode(sButtonLeft, INPUT);
   pinMode(sButtonRight, INPUT);
 
-  display.display();
-  delay(2000);
-
   display.clearDisplay();
   display.setTextSize(1);      
   display.setTextColor(SSD1306_WHITE); 
