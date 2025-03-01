@@ -10,10 +10,6 @@ For the hardware part I used:
 They were placed in the following montage:
 ![alt text](https://github.com/alexOlaru0131/Snake-Game/blob/main/SnakeGame.png)
 
-The program uses the same rules as the Snake Game on Nokia. To control the snake you need to press the buttons which direction (function) you can set by adjusting the code or by rearranging the wires.
-
-The rules are simple. The snake is starting by the length of 1 (unit). The snake needs to eat the fruits. Each time the snake eats a fruit (1 unit), he gets bigger by 1 unit. The snake and fruits are placed randomly on the display. If the snake gets big enough that you will hit it's body with it's head, you will lose the game and restart imeediately a new one.
-
-The code I designed works by these rules, it's not that complicated. You can upgrade it by modifying the looks of the snake and fruit (I wanted to show an apple, but it got too complicated).
+In the software part, the display uses the `SPI communication protocol` and it displays the snake on each unit of length as a filled sqaure and tge fruits as filled circles. The snake can't hit the walls as it will just appear in the opposite part of the screen when going in the margin. As the snake eats each fruit, he will increase in size by one unit. If the snake collides with himself, the game will reset. The fruits are placed randomly on the map.
 
 https://youtu.be/nMhmNtP8bHk
